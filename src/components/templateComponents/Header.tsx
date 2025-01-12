@@ -12,7 +12,7 @@ export default function Header({state, setState}:BooleanState){
         
         <div>
           <h1 className="text-2xl">Controle Financeiro</h1>
-          <p className="text-sm mt-1 dark:text-purple-100">Onde nossa família vai controlar suas finanças de 2025.</p>
+          <p className="text-sm mt-1 dark:text-purple-100">Onde vamos controlar suas finanças de 2025.</p>
         </div> 
       </div>
       <LightDarkButton state={state} setState={setState} />
